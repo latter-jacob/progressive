@@ -1,19 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Progressive Energy Services</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
-
     <%= stylesheet_link_tag    "application" %>
     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
   </head>
 
   <body>
+    <div id="wrapper">
 
-    <%= yield %>
+      <div id="header">
+        <ul class="left-nav">
+          <li id="logo"><%=link_to image_tag("progressive.jpg", class: "logo-img"), root_path%>
+
+            <li id="title-nav"><p>Progressive Energy Services LLC</p></li>
+          </ul>
+          <div class="dropdown">
+            <button class="dropbtn">Dropdown</button>
+            <div class="dropdown-content">
+              <%=link_to 'Resources', resources_path %>
+              <%=link_to 'Services', services_path %>
+              <%=link_to 'Incentives', incentives_path %>
+              <%=link_to "Angie's List", "https://www.angieslist.com/companylist/us/ma/sterling/progressive-energy-services-llc-reviews-6364586.htm" %>
+            </div>
+          </div>
+      </div><!-- #header -->
+
+      <div id="content">
+        <%= yield %>
+      </div><!-- #content -->
+
+      <div id="footer">
+        <ul class="footer-ul">
+          <li class="footer-li"> <%=link_to 'About Us', about_path %></li>
+          <li class="footer-li">(978) 111-7784</li>
+          <li class="footer-li"><%=link_to 'Contact Us', contactUs_path %></li>
+        </ul>
+      </div><!-- #footer -->
+
+    </div><!-- #wrapper -->
 
   </body>
+
 </html>

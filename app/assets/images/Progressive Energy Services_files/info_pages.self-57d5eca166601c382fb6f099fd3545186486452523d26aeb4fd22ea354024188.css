@@ -1,0 +1,23 @@
+/* line 1, /Users/jacoblatter/side_projects/progressive/app/assets/stylesheets/info_pages.scss */
+.info-title {
+  font-size: 2rem;
+  padding-left: 15%;
+}
+
+/* line 5, /Users/jacoblatter/side_projects/progressive/app/assets/stylesheets/info_pages.scss */
+.info-body {
+  width: 75%;
+  padding-left: 12.5%;
+  margin-bottom: 0;
+}
+
+/* line 12, /Users/jacoblatter/side_projects/progressive/app/assets/stylesheets/info_pages.scss */
+.info-ul {
+  list-style-type: square;
+  padding-left: 20%;
+}
+
+/* line 19, /Users/jacoblatter/side_projects/progressive/app/assets/stylesheets/info_pages.scss */
+.info-more {
+  padding-left: 20%;
+}

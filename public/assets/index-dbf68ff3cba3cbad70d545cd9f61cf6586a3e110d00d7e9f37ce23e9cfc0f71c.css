@@ -1,0 +1,31 @@
+/* line 1, /Users/jacoblatter/side_projects/progressive/app/assets/stylesheets/index.scss */
+#index-header {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+/* line 6, /Users/jacoblatter/side_projects/progressive/app/assets/stylesheets/index.scss */
+.video-index {
+  padding-left: 5rem;
+  float: left;
+}
+
+/* line 11, /Users/jacoblatter/side_projects/progressive/app/assets/stylesheets/index.scss */
+.reviews-label {
+  padding-left: 62rem;
+}
+
+/* line 14, /Users/jacoblatter/side_projects/progressive/app/assets/stylesheets/index.scss */
+.reviews {
+  float: right;
+  width: 25rem;
+  height: 20rem;
+  overflow: scroll;
+  padding-right: 2rem;
+}
+
+/* line 21, /Users/jacoblatter/side_projects/progressive/app/assets/stylesheets/index.scss */
+.review-title {
+  font-weight: bold;
+}

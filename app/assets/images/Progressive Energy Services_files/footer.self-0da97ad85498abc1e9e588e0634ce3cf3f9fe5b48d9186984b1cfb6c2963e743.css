@@ -1,0 +1,21 @@
+/* line 1, /Users/jacoblatter/side_projects/progressive/app/assets/stylesheets/footer.scss */
+.footer-ul {
+  list-style: none;
+  display: inline-flex;
+  font-size: 1.7rem;
+}
+
+/* line 7, /Users/jacoblatter/side_projects/progressive/app/assets/stylesheets/footer.scss */
+.footer-li {
+  padding-left: 12rem;
+  color: white;
+}
+
+/* line 11, /Users/jacoblatter/side_projects/progressive/app/assets/stylesheets/footer.scss */
+#footer-li {
+  color: white;
+}
+/* line 13, /Users/jacoblatter/side_projects/progressive/app/assets/stylesheets/footer.scss */
+#footer-li a:link {
+  color: white;
+}
