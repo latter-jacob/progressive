@@ -1,7 +1,13 @@
 .info-title{
   font-size: 2rem;
   padding-left: 15%;
+  font-family: 'ADAM';
+  padding-top: 1rem;
 }
+strong{
+  font-family: 'ADAM';
+}
+
 .info-body{
   width: 75%;
   padding-left: 12.5%;
@@ -14,8 +20,22 @@
   padding-left: 20%;
 }
 
+.info-subtitle{
+  font-size: 1.5rem;
+  padding-left: 12.5%;
+  font-weight: bold;
+  font-family: 'ADAM';
+}
+
 // contact us
 
 .info-more{
   padding-left: 20%;
+}
+
+#mapid {
+  height: 32vw;
+  width: 75vw;
+  margin-left: 13%;
+  margin-bottom: 2vw;
 }

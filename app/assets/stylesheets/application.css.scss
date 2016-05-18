@@ -36,3 +36,22 @@
  	bottom:0;
  	left:0;
  }
+
+ @font-face {
+ font-family: "unispace";
+ src: url(asset-path("unispace.ttf")) format("truetype");
+ font-weight: normal;
+ font-style: normal;
+}
+ @font-face {
+ font-family: "adam";
+ src: url(asset-path("ADAM.otf")) format("opentype");
+ font-weight: normal;
+ font-style: normal;
+}
+ @font-face {
+ font-family: "hemi-head";
+ src: url(asset-path("hemi-head.ttf")) format("truetype");
+ font-weight: normal;
+ font-style: normal;
+}

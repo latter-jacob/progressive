@@ -4,9 +4,12 @@
     <title>Progressive Energy Services</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <%= stylesheet_link_tag    "application" %>
+    <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    <%= stylesheet_link_tag    "application" %>
     <%= csrf_meta_tags %>
+    <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
   </head>
 
   <body>
@@ -14,9 +17,9 @@
 
       <div id="header">
         <ul class="left-nav">
-          <li id="logo"><%=link_to image_tag("progressive.jpg", class: "logo-img"), root_path%>
+          <li id="logo"><%=link_to image_tag("progressive.jpg", class: "logo-img"), root_path%></li>
 
-            <li id="title-nav"><p>Progressive Energy Services LLC</p></li>
+            <li id="title-nav"><p>Progressive Energy Services <span class="LLC">LLC</span></p></li>
           </ul>
           <div class="dropdown">
             <button class="dropbtn">Dropdown</button>
@@ -35,6 +38,7 @@
 
       <div id="footer">
         <ul class="footer-ul">
+          <li class="footer-li"><%=link_to "Angie's List", contactUs_path %></li>
           <li class="footer-li"> <%=link_to 'About Us', about_path %></li>
           <li class="footer-li">(978) 111-7784</li>
           <li class="footer-li"><%=link_to 'Contact Us', contactUs_path %></li>

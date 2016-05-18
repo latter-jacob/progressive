@@ -2,7 +2,8 @@
 @import "*";
 
 #header {
-  background: image-url("orange.jpg");
+  background: image-url("orange.png");
+  background-size: cover;
 }
 // left side of nav
 .left-nav{
@@ -20,7 +21,13 @@
 }
 #title-nav{
   padding-left: 1rem;
-  font-size: 2rem;
+  font-size: 3rem;
+  font-family: 'hemi-head';
+  margin-bottom: -12px;
+  margin-top: -7px;
+}
+.LLC{
+  font-size: 1.5rem;
 }
 // right side of nav
 .dropbtn {
