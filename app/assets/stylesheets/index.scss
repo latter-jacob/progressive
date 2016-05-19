@@ -2,6 +2,7 @@
     font-size: 2rem;
     text-align: center;
     padding-top: 1rem;
+    font-family: 'ADAM';
 }
 .video-index{
   padding-left: 5rem;
@@ -10,20 +11,35 @@
 // review area
 .reviews-label{
   padding-left: 62rem;
+  font-family: 'ADAM';
 }
 .reviews{
   float: right;
   width: 25rem;
-  height: 20rem;
-  overflow: scroll;
-  padding-right: 2rem;
+  height: 20.3rem;
+  overflow-y: scroll;
+  margin-right: 3rem;
+  background-color: #CCE3EB;
+  border:2px solid black;
+
+
 }
 .review-title {
   font-weight: bold;
+  padding-left: 10px;
+  padding-top: 5px;
 }
 .review-date {
-
+  padding-left: 10px;
 }
-.reviews-body {
+.review-body {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
+.angie{
+  padding-top: 21rem;
+  font-size: 2rem;
+  letter-spacing: 5px;
+  padding-left: 21rem;
 }
