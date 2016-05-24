@@ -13,4 +13,6 @@ Rails.application.routes.draw do
 
   get '/incentives', to: 'homes#incentives'
 
+  get '/map', to: 'homes#map'
+
 end

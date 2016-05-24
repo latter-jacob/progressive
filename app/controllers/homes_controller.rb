@@ -18,5 +18,7 @@ class HomesController < ApplicationController
   def incentives
   end
 
+  def map
+  end
 
 end

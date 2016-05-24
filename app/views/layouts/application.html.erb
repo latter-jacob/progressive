@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <title>Progressive Energy Services</title>
-    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
@@ -29,6 +29,15 @@
               <%=link_to 'Incentives', incentives_path %>
               <%=link_to "Angie's List", "https://www.angieslist.com/companylist/us/ma/sterling/progressive-energy-services-llc-reviews-6364586.htm" %>
             </div>
+            <div class="dropdown-content-phone">
+              <%=link_to 'Home', root_path %>
+              <%=link_to 'Resources', resources_path %>
+              <%=link_to 'Services', services_path %>
+              <%=link_to 'Incentives', incentives_path %>
+              <%=link_to "Angie's List", "https://www.angieslist.com/companylist/us/ma/sterling/progressive-energy-services-llc-reviews-6364586.htm" %>
+              <%=link_to 'About Us', about_path %>
+              <%=link_to 'Contact Us', contactUs_path %>
+            </div>
           </div>
       </div><!-- #header -->
 
@@ -41,6 +50,11 @@
           <li class="footer-li"> <%=link_to 'About Us', about_path %></li>
           <li class="footer-li">(978) 111-7784</li>
           <li class="footer-li"><%=link_to 'Contact Us', contactUs_path %></li>
+        </ul>
+      </div><!-- #footer -->
+      <div id="footer-phone">
+        <ul class="footer-ul">
+          <li class="footer-li">(978) 111-7784</li>
         </ul>
       </div><!-- #footer -->
 
