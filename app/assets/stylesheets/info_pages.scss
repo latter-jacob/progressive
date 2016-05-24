@@ -39,3 +39,47 @@ strong{
   margin-left: 13%;
   margin-bottom: 2vw;
 }
+
+// map page
+
+#mapid2{
+    height: 32vw;
+    width: 95vw;
+    margin-left: 13%;
+    margin-bottom: 2vw;
+}
+
+// phone and such
+
+@media (max-width: 1100px) {
+
+  .info-title{
+    font-size: 2rem;
+    padding-left: 0%;
+    text-align: center;
+    font-family: 'ADAM';
+    padding-top: 1rem;
+  }
+
+  .info-body{
+    width: 90%;
+    padding-left: 5%;
+  }
+  .info-more{
+    padding-left: 10%;
+  }
+  .info-ul{
+    list-style-type: square;
+    padding-left: 10%;
+  }
+
+  #mapid {
+    display: none;
+  }
+  .info-subtitle{
+    display: none;
+  }
+  #towns-list{
+    display: none;
+  }
+}

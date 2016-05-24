@@ -21,8 +21,6 @@
   margin-right: 3rem;
   background-color: #CCE3EB;
   border:2px solid black;
-
-
 }
 .review-title {
   font-weight: bold;
@@ -38,8 +36,34 @@
 }
 
 .angie{
-  padding-top: 21rem;
+  padding-top: 21.7rem;
   font-size: 2rem;
   letter-spacing: 5px;
   padding-left: 21rem;
+  font-family: ADAM;
+}
+
+// pphone zone
+@media (max-width: 1100px) {
+  .reviews-label{
+    padding-left: 1rem;
+    padding-top: 25rem;
+  }
+  #index-header{
+    font-size: 1rem;
+  }
+  .reviews {
+    margin-right: 0.2rem;
+    width: 25.5rem;
+  }
+  .angie{
+    padding: 0;
+    text-align: center;
+  }
+  .video-index {
+    padding-left: 0rem;
+  }
+  .video {
+    width: 100%;
+  }
 }
