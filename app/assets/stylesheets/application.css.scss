@@ -19,8 +19,6 @@
  	margin:0;
  	padding:0;
  	height:100%;
-  // background: image-url("background.jpg");
-  // background-size: cover;
  }
  #wrapper {
  	min-height:100%;
@@ -29,6 +27,7 @@
 
  #content {
  	padding-bottom:50px; /* Height of the footer element */
+  height: 100%;
  }
  #footer {
  	background:#2E3192;
