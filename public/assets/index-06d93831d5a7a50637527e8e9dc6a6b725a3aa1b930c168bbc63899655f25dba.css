@@ -1,0 +1,92 @@
+/* line 1, /Users/jacoblatter/side_projects/progressive/app/assets/stylesheets/index.scss */
+#index-header {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 1rem;
+  font-family: 'ADAM';
+}
+
+/* line 7, /Users/jacoblatter/side_projects/progressive/app/assets/stylesheets/index.scss */
+.video-index {
+  padding-left: 5rem;
+  float: left;
+}
+
+/* line 12, /Users/jacoblatter/side_projects/progressive/app/assets/stylesheets/index.scss */
+.reviews-label {
+  padding-left: 62rem;
+  font-family: 'ADAM';
+}
+
+/* line 16, /Users/jacoblatter/side_projects/progressive/app/assets/stylesheets/index.scss */
+.reviews {
+  float: right;
+  width: 25rem;
+  height: 20.3rem;
+  overflow-y: scroll;
+  margin-right: 3rem;
+  background-color: #CCE3EB;
+  border: 2px solid black;
+}
+
+/* line 25, /Users/jacoblatter/side_projects/progressive/app/assets/stylesheets/index.scss */
+.review-title {
+  font-weight: bold;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+/* line 30, /Users/jacoblatter/side_projects/progressive/app/assets/stylesheets/index.scss */
+.review-date {
+  padding-left: 10px;
+}
+
+/* line 33, /Users/jacoblatter/side_projects/progressive/app/assets/stylesheets/index.scss */
+.review-body {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* line 38, /Users/jacoblatter/side_projects/progressive/app/assets/stylesheets/index.scss */
+.angie {
+  padding-top: 21.7rem;
+  font-size: 2rem;
+  letter-spacing: 5px;
+  padding-left: 21rem;
+  font-family: ADAM;
+}
+
+@media (max-width: 1100px) {
+  /* line 48, /Users/jacoblatter/side_projects/progressive/app/assets/stylesheets/index.scss */
+  .reviews-label {
+    padding-left: 1rem;
+    padding-top: 25rem;
+  }
+
+  /* line 52, /Users/jacoblatter/side_projects/progressive/app/assets/stylesheets/index.scss */
+  #index-header {
+    font-size: 1rem;
+  }
+
+  /* line 55, /Users/jacoblatter/side_projects/progressive/app/assets/stylesheets/index.scss */
+  .reviews {
+    margin-right: 0.2rem;
+    width: 25.5rem;
+  }
+
+  /* line 59, /Users/jacoblatter/side_projects/progressive/app/assets/stylesheets/index.scss */
+  .angie {
+    padding: 0;
+    text-align: center;
+  }
+
+  /* line 63, /Users/jacoblatter/side_projects/progressive/app/assets/stylesheets/index.scss */
+  .video-index {
+    padding-left: 0rem;
+  }
+
+  /* line 66, /Users/jacoblatter/side_projects/progressive/app/assets/stylesheets/index.scss */
+  .video {
+    width: 100%;
+  }
+}
